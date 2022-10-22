@@ -1,0 +1,27 @@
+@import '../../../styles/colors.scss';
+
+.wrapper {
+  margin-top: 8px;
+
+  .result {
+    min-width: 280px;
+    width: 100%;
+    height: auto;
+
+    font-size: 54px;
+    line-height: 90%;
+    font-weight: 900;
+    color: $black;
+
+    border: 0;
+    background-color: transparent;
+
+    input {
+      padding: 0;
+      height: 49px;
+      cursor: auto !important;
+
+      font-family: 'Nekst Black', sans-serif;
+    }
+  }
+}

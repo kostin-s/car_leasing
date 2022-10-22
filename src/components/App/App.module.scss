@@ -1,0 +1,23 @@
+@import '../../styles/colors.scss';
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+
+  height: 100vh;
+  max-width: 1470px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  max-width: 753px;
+
+  font-family: 'Nekst Black';
+  font-style: normal;
+  font-size: 54px;
+  line-height: 90%;
+  color: $black-100;
+}

@@ -1,0 +1,48 @@
+@import './colors.scss';
+
+.ant-input-number-handler-wrap {
+  display: none;
+}
+
+.ant-slider {
+  .ant-slider-step {
+    height: 2px;
+  }
+
+  .ant-slider-track {
+    height: 2px;
+  }
+
+  .ant-slider-rail {
+    height: 1px;
+    background-color: $grey-300;
+  }
+
+  .ant-slider-handle {
+    width: 20px;
+    height: 20px;
+    margin-top: -9px;
+
+    border: none;
+    background-сolor: orange;
+
+    &:focus {
+      box-shadow: none;
+    }
+  }
+
+  .ant-slider-track {
+    background-color: $orange;
+  }
+
+  .ant-slider-handle {
+    border: none;
+    background-color: $orange;
+  }
+
+  &.ant-slider-horizontal:hover {
+    .ant-slider-track {
+      background-color: $orange;
+    }
+  }
+}
