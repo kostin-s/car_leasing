@@ -39,7 +39,7 @@ const InputSlider: FC<IInputSliderProps> = (props) => {
         min={minValue}
         max={maxValue}
         step={step}
-        formatter={(value) => `${formatSpace(value)} ${format}`}
+        formatter={(value) => `${formatSpace(value)}`}
       />
       <Slider
         className={styles.slider}
@@ -51,6 +51,7 @@ const InputSlider: FC<IInputSliderProps> = (props) => {
         defaultValue={data[name]}
         tooltip={{ formatter: null }}
       />
+      <span className={styles.format}>{format}</span>
     </div>
   );
 };

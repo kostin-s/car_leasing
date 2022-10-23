@@ -18,7 +18,7 @@ export const useInput = (
 
   const onChangeInput = (value: inputType) => {
     if (typeof value !== 'number' || isNaN(value)) {
-      return handlerData(name, defaultValue);
+      return;
     }
 
     if (value > maxValue) {
