@@ -55,9 +55,9 @@ const InputSliderDouble: FC<IInputSliderDoubleProps> = (props) => {
         step={step}
         value={data[name]}
         onChange={onChangeInput}
-        maxLength={2}
+        formatter={(value) => `${value} ${format}`}
+        disabled
       />
-      <span className={styles.format_small}>{format}</span>
     </div>
   );
 };
