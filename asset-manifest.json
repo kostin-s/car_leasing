@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/car_leasing/static/css/main.8b63cb14.css",
+    "main.js": "/car_leasing/static/js/main.c12d8386.js",
+    "static/media/Nekst-Regular.woff": "/car_leasing/static/media/Nekst-Regular.4d8de93b27c5bd7e1f9b.woff",
+    "static/media/Nekst-Black.woff": "/car_leasing/static/media/Nekst-Black.f0e2921efcf1112b1749.woff",
+    "static/media/Nekst-Regular.woff2": "/car_leasing/static/media/Nekst-Regular.9e71aafe8ea6d32f9b41.woff2",
+    "static/media/Nekst-Black.woff2": "/car_leasing/static/media/Nekst-Black.44814bfd3ba4a266cf1d.woff2",
+    "static/media/Gilroy-Regular.woff": "/car_leasing/static/media/Gilroy-Regular.ebe86c0337572553acea.woff",
+    "static/media/Gilroy-Regular.woff2": "/car_leasing/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
+    "index.html": "/car_leasing/index.html",
+    "main.8b63cb14.css.map": "/car_leasing/static/css/main.8b63cb14.css.map",
+    "main.c12d8386.js.map": "/car_leasing/static/js/main.c12d8386.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.8b63cb14.css",
+    "static/js/main.c12d8386.js"
+  ]
+}
