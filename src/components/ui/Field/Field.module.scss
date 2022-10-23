@@ -8,6 +8,17 @@
     margin-right: 0;
   }
 
+  @media (max-width: 1120px) {
+    margin-right: 0;
+    margin-bottom: 26px;
+
+    flex: 1 1 50%;
+  }
+
+  @media (max-width: 480px) {
+    flex: 1 1 100%;
+  }
+
   .title {
     font-family: 'Gilroy Regular', sans-serif;
     font-weight: 400;

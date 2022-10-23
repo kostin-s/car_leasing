@@ -4,6 +4,10 @@
   position: relative;
   margin-top: 24px;
 
+  @media (max-width: 1120px) {
+    margin-top: 8px;
+  }
+
   .input {
     min-width: 280px;
     width: 100%;
@@ -17,6 +21,12 @@
     border-radius: 16px;
     border: 0;
     background-color: $grey-200;
+
+    @media (max-width: 480px) {
+      min-width: 240px;
+
+      font-size: 22px;
+    }
 
     input {
       padding: 0 24px;
@@ -34,12 +44,22 @@
     left: 0;
     right: 0;
     margin: 0 auto;
+
+    @media (max-width: 1120px) {
+      width: 95%;
+    }
+
+    @media (max-width: 768px) {
+      width: 92%;
+    }
   }
 
   .percent {
     position: absolute;
-    top: 0;
-    right: 0;
+    top: 7px;
+    right: 7px;
+
+    width: 69px;
 
     background: #ebebec;
     border: 0;
@@ -48,7 +68,6 @@
     input {
       padding: 15px 17px;
       height: 54px;
-      width: 69px;
 
       font-family: 'Nekst Black', sans-serif;
       cursor: pointer;

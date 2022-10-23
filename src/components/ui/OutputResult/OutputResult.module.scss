@@ -16,6 +16,10 @@
     border: 0;
     background-color: transparent;
 
+    @media (max-width: 768px) {
+      font-size: 38px;
+    }
+
     input {
       padding: 0;
       height: 49px;
