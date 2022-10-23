@@ -40,6 +40,7 @@ const InputSlider: FC<IInputSliderProps> = (props) => {
         max={maxValue}
         step={step}
         formatter={(value) => `${formatSpace(value)} ${format}`}
+        disabled
       />
       <Slider
         className={styles.slider}
